@@ -1,0 +1,13 @@
+.app-content.user-details
+  .container-fluid
+    .row.header
+      a.btn.btn-xs.btn-default href='javascript:history.go(-1)' Back
+    .row
+      .col-sm-12
+        h4 Upload avatar photo
+        = form_for @user, html: {multipart: true} do |f|
+          .form-group
+            = f.file_field :avatar
+          .form-group
+            = f.submit class: 'btn btn-primary'
+.app-footer

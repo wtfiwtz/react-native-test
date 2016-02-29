@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Developer/reactnative/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/classes-7c0a04572523954de6def3a60e8075f4fab31a36.jar" />
+    </item>
+    <item
+        jar="/Developer/reactnative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/classes-407ec393a9682895f28a9533d5307bb2f8483845.jar" />
+    </item>
+    <item
+        jar="/Developer/reactnative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d5fddbfc516e39dd74d776e5cca8b761721990b">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/classes-0dc75e9fcf4a4f5c752d8fdd6331e1e46125e6aa.jar" />
+    </item>
+    <item
+        jar="/Developer/reactnative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="99c854e791067a69667c57c7ef1b596810c94ab2">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/classes-1fb508deec86fbed8efb2a3545b7c211e84e5dc2.jar" />
+    </item>
+    <item
+        jar="/Users/wtfiwtz/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-ee81ceb4f59cea2f4ea5ebacfa2d3162862cc3ef.jar" />
+    </item>
+    <item
+        jar="/Developer/reactnative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb9817e26186e1a267cdd14211742ecc793de32e">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/classes-b8f18a5a53bf79b84a81cd399b41ff5f46ec624a.jar" />
+    </item>
+    <item
+        jar="/Users/wtfiwtz/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.5.0/bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a/okio-1.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/okio-1.5.0-75f7aeafe4467b117c48729ac7f2ec038cc57486.jar" />
+    </item>
+    <item
+        jar="/Users/wtfiwtz/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-ad3228f2f7f167a35fbc1c52f594bb39300b772e.jar" />
+    </item>
+    <item
+        jar="/Users/wtfiwtz/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-4bf1c6aa61849320e167b26c44491624c55809d0.jar" />
+    </item>
+    <item
+        jar="/Developer/reactnative/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-25ee0a95a39ff603a47ad1125e45c0c6d73744c3.jar" />
+    </item>
+    <item
+        jar="/Users/wtfiwtz/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-7085d883898589d1f3256b9812e0d9723ba6f285.jar" />
+    </item>
+    <item
+        jar="/Developer/reactnative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd4c42401d36342901ac4280fb92a831f8007f3d">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/classes-f6dc9900e999d1c5a89c93b588eca9f1c128c0ba.jar" />
+    </item>
+    <item
+        jar="/Developer/reactnative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c10091a128e47ed4ef804bd753c0f45745699756">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/classes-0d7c2571e640ab21a7c5325ba7417865fb17412e.jar" />
+    </item>
+    <item
+        jar="/Users/wtfiwtz/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-87a6b31d68aef2bb8002bd2811c7cbedc591559c.jar" />
+    </item>
+    <item
+        jar="/Developer/reactnative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.11.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-826a1a833188e4ff34ccf92ff94342ea2ecbfe97.jar" />
+    </item>
+    <item
+        jar="/Users/wtfiwtz/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.4.0/69206d28966656052a982ceded583abdeb41cf63/okhttp-ws-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="69206d28966656052a982ceded583abdeb41cf63">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.4.0-bc297bec416d0baa281cc872cfab8fd6402a18bb.jar" />
+    </item>
+    <item
+        jar="/Users/wtfiwtz/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-2ae8da87b302962ffac66eb3425b813d540db6a8.jar" />
+    </item>
+    <item
+        jar="/Developer/reactnative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Developer/reactnative/android/app/build/intermediates/pre-dexed/debug/classes-1b060fa217df09f607e28e39346edf94155c94d0.jar" />
+    </item>
+
+</items>

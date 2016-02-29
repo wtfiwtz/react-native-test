@@ -1,0 +1,265 @@
+.header_bottom
+  //background-color: rgba(255, 255, 255, 0.85) !important
+  .container
+    position: static
+  .container_inner
+    position: relative
+    //width: 1100px
+    margin: 0 auto
+    .header_inner_left
+      position: absolute
+      left: 0
+      top: 0
+
+.header_inner_right
+  float: right
+  position: relative
+  z-index: 110
+
+.side_menu_button_wrapper
+  display: table
+
+.header_bottom .side_menu_button
+  height: 60px
+
+.side_menu_button
+  cursor: pointer
+  display: table-cell
+  vertical-align: middle
+  height: 100px
+  > a
+    -webkit-transition: opacity .3s ease
+    -moz-transition: opacity .3s ease
+    -ms-transition: opacity .3s ease
+    -o-transition: opacity .3s ease
+    color: #9d9d9d
+
+.mobile_menu_button span
+  -webkit-transition: opacity .3s ease
+  -moz-transition: opacity .3s ease
+  -ms-transition: opacity .3s ease
+  -o-transition: opacity .3s ease
+  color: #9d9d9d
+
+.side_menu_button
+  > a
+    font-size: 14px
+    position: relative
+    display: inline
+    width: 20px
+    height: 20px
+    padding: 0 12px
+  a:last-child
+    padding: 0 0 0 8px
+
+nav.main_menu
+  position: absolute
+  left: 50%
+  z-index: 100
+  text-align: left
+  &.right
+    position: relative
+    left: auto
+    float: right
+  > ul
+    left: -50%
+    position: relative
+  ul
+    list-style: none outside none
+    margin: 0
+    padding: 0
+    li
+      display: inline-block
+      float: left
+      padding: 0
+      margin: 0
+      background-repeat: no-repeat
+      background-position: right
+
+.drop_down ul li
+  position: relative
+
+.header_bottom nav.main_menu > ul > li
+  > a
+    line-height: 60px
+    &:hover
+      line-height: 60px
+  &.active
+    > a, > a
+      line-height: 60px
+  > a
+    line-height: 60px
+    &:hover
+      line-height: 60px
+
+nav
+  &.main_menu
+    ul li a
+      color: #777
+      font-weight: 400
+      text-decoration: none
+      display: inline-block
+      position: relative
+      line-height: 100px
+      padding: 0
+      margin: 0
+      cursor: pointer
+    > ul > li > a
+      position: relative
+      padding: 0 17px
+      color: #9d9d9d
+      text-transform: uppercase
+      font-weight: 600
+      font-size: 13px
+      letter-spacing: 1px
+      display: inline-block
+      height: 100%
+      background-color: transparent
+      -webkit-transition: opacity .3s ease-in-out,color .3s ease-in-out
+      -moz-transition: opacity .3s ease-in-out,color .3s ease-in-out
+      -o-transition: opacity .3s ease-in-out,color .3s ease-in-out
+      -ms-transition: opacity .3s ease-in-out,color .3s ease-in-out
+      transition: opacity .3s ease-in-out,color .3s ease-in-out
+      > i.blank
+        display: none
+    &.right > ul
+      left: auto
+  &.mobile_menu
+    display: none
+    width: 100%
+    float: left
+    position: relative
+    top: 0
+    text-align: left
+    overflow: hidden
+    background-color: #fff
+    z-index: 100
+    ul
+      display: none
+      width: 100%
+      position: relative
+      list-style: none
+      padding: 0
+      margin: 0
+      li
+        border-color: #cccccc
+        ul li, &.open_sub > ul
+          border-color: #cccccc
+        border-bottom: 1px solid #eaeaea
+        ul li
+          border-bottom: 1px solid #eaeaea
+        margin: 0
+        padding: 0
+        position: relative
+        a, h3
+          font-size: 13px
+          font-weight: 400
+          color: #888
+          padding: 10px 0 10px 0
+          display: block
+          position: relative
+          text-transform: none
+          line-height: 26px
+          letter-spacing: 0
+        a
+          -webkit-transition: all .2s ease
+          -moz-transition: all .2s ease
+          -o-transition: all .2s ease
+          -webkit-tap-highlight-color: transparent
+
+.q_logo a
+  position: relative
+  display: block
+  visibility: hidden
+
+.header_bottom .q_logo img
+  &.normal, &.light, &.dark, &.popup, &.mobile
+    opacity: 0 !important
+
+.q_logo img
+  display: block
+  opacity: 1
+  position: absolute
+  top: 20px
+  /* -50%;
+  width: auto !important
+  max-width: none
+  -webkit-transition: opacity .6s ease-in-out
+  -moz-transition: opacity .6s ease-in-out
+  -o-transition: opacity .6s ease-in-out
+  -ms-transition: opacity .6s ease-in-out
+
+.header_bottom .q_logo img.sticky
+  opacity: 1
+
+.mobile_menu_button
+  display: none
+  float: left
+  height: 100px
+  margin: 0 20px 0 0
+
+footer
+  display: block
+  width: 100%
+  margin: 0 auto
+  //z-index: 100
+  position: relative
+
+.footer_top_holder
+  display: block
+  background-color: #262626
+
+.footer_top
+  padding: 72px 0 52px
+
+footer .container_inner
+  position: relative
+
+.three_columns
+  width: 100%
+  >
+    .column1, .column2, .column3
+      width: 33.33%
+      float: left
+    .column1 > .column_inner
+      padding: 0 15px 0 0
+
+.footer_top
+  a, p, span, li, .textwidget
+    color: #818181
+    word-wrap: break-word
+  .four_columns .column2 .column_inner > div, .three_columns .column2 .column_inner > div, .two_columns_50_50 .column2 .column_inner > div
+    margin: 0 0 0 15px
+  a, p, span, li, .textwidget
+    color: #818181
+    word-wrap: break-word
+
+.footer_bottom_holder
+  display: block
+  background-color: #1b1b1b
+
+.footer_bottom
+  display: table-cell
+  text-align: center
+  font-size: 12px
+  line-height: 22px
+  height: 53px
+  width: 1%
+  vertical-align: middle
+  p, span
+    margin: 0
+
+.footer_top
+  h5
+    font-size: 15px
+    line-height: 1.571428571428571em
+    text-transform: uppercase
+    letter-spacing: 1px
+    font-weight: 600
+    color: #fff
+    margin: 0 0 22px
+  u
+    text-decoration: underline
+  a, p, span, li, .textwidget
+    color: #818181
+    word-wrap: break-word

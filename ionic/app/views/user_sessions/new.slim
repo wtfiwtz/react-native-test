@@ -1,0 +1,33 @@
+h2.login-title Log In to your Account
+
+- flash.each do |name, msg|
+  .alert.alert-danger role="alert"
+    p
+      = msg
+/.alert.alert-danger role="alert"
+  | Please enter a valid email and password combination
+= form_tag user_sessions_path, method: :post
+  fieldset
+    .form-group
+      label.control-label for="email" Email address
+      input#emailAddress type="text" class="form-control" name="email" placeholder="email address" /
+    .form-group
+      label.control-label for="password" aria-hidden="true" Password
+      input#password type="password" class="form-control" name="password" placeholder="password" /
+    .form-group
+      button#signin.btn.btn-primary.btn-block.text-uppercase type="submit" name="signin" Log In
+
+
+.row
+  .center-block.text-center.divider
+    span.text-uppercase
+      | Or Log In with
+  ul.list-inline.text-center
+    li.facebook
+      = link_to 'Facebook', auth_at_provider_path(provider: :facebook), class: 'btn btn-default', title: 'Log In with Facebook'
+    li.linkedin
+      = link_to 'LinkedIn', auth_at_provider_path(provider: :linkedin), class: 'btn btn-default', title: 'Log In with LinkedIn'
+    li.twitter
+      = link_to 'Twitter', auth_at_provider_path(provider: :twitter), class: 'btn btn-default', title: 'Log In with Twitter'
+    li.google-plus
+      = link_to 'Google', auth_at_provider_path(provider: :google), class: 'btn btn-default', title: 'Log In with Google'

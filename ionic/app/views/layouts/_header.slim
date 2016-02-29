@@ -1,0 +1,26 @@
+.app-header
+  nav.navbar.navbar-default.navbar-fixed-top.top-header
+    .header_bottom.clearfix
+      .header_inner_right style='top:15px;padding:0px 5px 0px 15px'
+        ul.nav-right.pull-right.list-unstyled
+          li.dropdown.text-normal.nav-profile
+            a.dropdown-toggle[href="javascript:;" data-toggle="dropdown"]
+              img.img-circle.img30_30> src="/img/avatar.gif" alt=""
+              span.hidden-xs
+                span= "#{current_user.first_name} #{current_user.last_name}"
+            ul.dropdown-menu.with-arrow.pull-right
+              li
+                a[href="/logout"]
+                  i.fa.fa-sign-out
+                  span Log Out
+      .container-fluid
+        .container_inner.clearfix
+          .header_inner_left
+            .mobile_menu_button
+              span
+                i.fa.fa-bars
+            .logo_wrapper
+              .q_logo
+                a[href='/' style="height: 50px; visibility: visible;"]
+                  img.sticky[src="/img/logo.png" alt="Logo" style="height: 50%;"]
+                  img.mobile[src="/img/logo.png" alt="Logo" style="height: 100%;"]
